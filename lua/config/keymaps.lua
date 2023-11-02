@@ -19,3 +19,10 @@ map("n", "<A-e>", ":NvimTreeFindFileToggle<CR>", opt)
 -- map("n", "<A-d>c", ":DiffviewClose<CR>", opt)
 map("n", "<leader>uz", ":ZenMode<CR>", { desc = "ZenMode" })
 map("n", "<leader>qw", ":q<CR>", { desc = ":q" })
+
+-- harpoon
+map("n", "<leader>ja", ":lua require('harpoon.mark').add_file()<CR>", { desc = "harpoon add" })
+map("n", "<leader>jf", ":lua require('harpoon.ui').toggle_quick_menu()<CR>", { desc = "harpoon find" })
+
+-- autosave
+map("n", "<leader>ua", ":ASToggle<CR>", { desc = "toggle autosave" })
