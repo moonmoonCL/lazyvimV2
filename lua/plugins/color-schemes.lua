@@ -2,11 +2,15 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "everforest",
     },
   },
   {
     "ellisonleao/gruvbox.nvim",
     event = "VeryLazy",
+  },
+  {
+    "neanias/everforest-nvim",
+    lazy = false,
   },
 }
