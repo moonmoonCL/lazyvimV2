@@ -11,6 +11,7 @@ return {
           preview_cutoff = 100,
         },
       },
+      path_display = { "truncate" },
     },
   },
 }
